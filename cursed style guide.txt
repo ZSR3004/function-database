@@ -1,0 +1,26 @@
+Recursive Sequence Style Guide:
+
+x refers to a variable; only use this variable
+c is a constant, it can be replaced by any number
+Do not include a(n), include only everything after the equals sign
+
+Basic Operations:
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Factorials: factorial(c)
+
+To refer to previous terms, use ().
+
+For example, the term, a, before the nth term would be a(n-1).
+
+Example:
+The nth term is the second to last term added to the third to last term: a(n)=a(n-1)+a(n-2)
+
+Degree:
+Degree is determined by the farthest back term called.
+For example, if you are adding the last and second to last term, then the sequence is to the second degree (degree of 2)
+Look for the largest number you are subtracting n from.
+
+Example: a(n-1)+a(n-2)*a(n-5); the largest number subtracting from n is 5, therefore this is to the fifth degree

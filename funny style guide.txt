@@ -1,0 +1,12 @@
+To create a function, f(x), you must follow the following:
+
+x refers to a variable; only use this variable
+c is a constant, it can be replaced by any number
+Do not include f(x) or y, include only everything after the equals sign
+
+Basic Operations:
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Factorials: factorial(c)
