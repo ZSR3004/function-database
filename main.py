@@ -1,8 +1,3 @@
-#Ziyad Rahman
-#Section 2
-#Intro to Programming Final Project
-#Decmeber 16, 2023
-
 #imports
 from sympy import *
 x, y, z = symbols('x y z')
@@ -12,9 +7,9 @@ init_printing(use_unicode=True)
 import os
 
 #paths
-p="C:/Users/zrahm/OneDrive/Desktop/Python/math/CS SS Final/SF Project.txt" #for equation storage
-sgf="C:/Users/zrahm/OneDrive/Desktop/Python/math/CS SS Final/funny style guide.txt" #guide for writing function equations
-sgr="C:/Users/zrahm/OneDrive/Desktop/Python/math/CS SS Final/cursed style guide.txt" #guide for writing sequence equations
+p="SFProject.txt" #for equation storage
+sgf="funnystyleguide.txt" #guide for writing function equations
+sgr="cursedstyleguide.txt" #guide for writing sequence equations
 
 #dictionary presets: pre-existing examples for program
 sdict={
