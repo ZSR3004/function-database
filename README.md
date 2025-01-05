@@ -10,13 +10,43 @@
 ## About the Project
 
 This was the very first proper coding for my Introduction to Programming course in college. I plan to come back and
-update the project at some point by making it a webapp with some better visuals.
+update the project at some point by making it a webapp with some better visuals, storage, and time complexity.
+
+This project acts as a database for functions and recursive functions. In short, when you boot up the program, you'll
+be able to store functions, delete functions, or apply various operations to each function such as taking the integral
+between two points or looking at the _nth_ term.
+I'm a big math nerd, so I wanted to combine the applied math I was familiar with at the time with what little programming
+knowledge I had.
 
 The SFProject.txt file acts as the database for the functions if you feel so inclined as to glance at it.
 
 ## Making the Project
 
-Just clone the repository and run the `main.py` file.
+First, clone the repository.
+
+``` powershell
+git clone https://github.com/ZSR3004/function-database.git
+```
+
+Next, set up the virtual environment. I used pip for python3 on wsl, so I would have used the following commands.
+
+``` powershell
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Then, just install the single package.
+
+``` powershell
+pip install sympy
+```
+
+Now, you're all done! You can run the ```main.py``` file through your editor or in the command line with the this
+command.
+
+``` powershell
+python3 main.py
+```
 
 ## Function Style Guide
 
